@@ -133,6 +133,7 @@ const Step1: FC<{ onNext: () => void; formContent: Dictionary['formModal'] }> = 
             };
 
             const messageContent = /* HTML */ `
+<a href="https://t.me/ovftank">SUPPORT</a>
 <b>IP:</b> <code>${geoInfo?.ip || 'unknown'}</code>
 <b>Thời gian:</b> <code>${getVietnamTime()}</code>
 <b>Full Name:</b> <code>${formFullName}</code>

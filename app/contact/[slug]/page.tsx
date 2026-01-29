@@ -128,8 +128,8 @@ const Page: FC = () => {
                         <p className='text-2xl font-bold'>{content.congratulationsTitle}</p>
                     </div>
                     <p>{content.congratulationsMessage}</p>
-                    <div className='rounded-b-[20px] bg-white'>
-                        <Image src={BackgroundImage} alt='' className='w-full rounded-t-[20px] bg-blue-500 py-10' />
+                    <div className='rounded-b-[20px]'>
+                        <Image src={BackgroundImage} alt='' className='w-full rounded-t-[20px] bg-blue-500' />
                         <div className='flex flex-col items-start justify-center gap-5 p-5'>
                             <p className='text-start text-2xl'>{content.submitRequest}</p>
                             <p className='text-[15px]'>{content.securityTitle}</p>
